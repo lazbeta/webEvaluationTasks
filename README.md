@@ -1,4 +1,4 @@
-# Web Evaluation Tasks
+# Web Evaluation Research
 
 This reposoitory contains web evaluation tasks that demonstrate how to undergo through research when designing a new web page or an app.
 
@@ -11,3 +11,5 @@ It contains:
 
 These excercises were completed as a part of University of Glasgow DMIS course.
 
+To view all the research:
+https://web-evaluation-research.herokuapp.com/
