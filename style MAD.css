@@ -63,9 +63,11 @@ line-height: 2;
 max-width: 60%;
 }
 
-figcaption {font-size: 15px;
+figcaption {
+font-size: 15px;
 font-family: arial;
-text-align: center;}
+text-align: center;
+}
 
 img {
   display: block;
@@ -98,12 +100,18 @@ audio {
 table {
   margin: auto;
   display: block;
+  border-collapse: collapse;
   font-family: arial;
 }
 
 th {
+padding: 8px;
 color: #656563;
 background-color: #f8f4f3;
+}
+
+td {
+   padding: 8px;
 }
 
 embed.pdf {display: block;

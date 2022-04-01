@@ -29,7 +29,7 @@ submenuobject.filters.alpha.opacity=degree
 function gradualfade(cur2){
 if (mastertabvar.browserdetect=="mozilla" && cur2.style.MozOpacity<1)
 cur2.style.MozOpacity=Math.min(parseFloat(cur2.style.MozOpacity)+0.1, 0.99)
-else if (mastertabvar.browserdetect=="ie" && cur2.filters.alpha.opacity<100)
+else if (mastertabvar.browserdetect=="ie" && cur2.filters.alpha.opacity< 100)
 cur2.filters.alpha.opacity+=10
 else if (typeof highlighting!="undefined") //fading animation over
 clearInterval(highlighting)
